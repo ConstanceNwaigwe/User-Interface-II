@@ -192,3 +192,57 @@ footer a{
 footer{
   margin:5%;
 }
+footer a:hover{
+    color:black;
+  }
+
+  @media screen and (max-width: 800px) {
+    body{
+      background-color:#67c9ba;
+    }
+    
+    nav{
+      justify-content:space-between;
+    }
+    nav a{
+      padding:3%;
+      background-color:white;
+      font-size:125%;
+    }
+    .intro p{
+      line-height:2.0;
+      letter-spacing:.2rem;
+    }
+    .work{
+      background-color:#6bd1ce;
+      color:white;
+    }
+    .project{
+      padding-top:5%;
+    }
+    .project-title{
+      font-size:135%;
+    }
+    .show-all a{
+      font-size:135%;
+      color:#0062ff;
+    }
+    footer a{
+      font-size:135%;
+      color:#0062ff;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    body{
+      background-color:#6bd19b;
+    }
+    nav{
+      flex-direction:column;
+      text-align:center;
+    }
+    nav a{
+      border-radius:0%;
+      font-size:135%;
+    }
+  }
